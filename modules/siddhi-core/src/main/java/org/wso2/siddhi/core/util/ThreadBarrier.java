@@ -22,6 +22,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Thread Barrier used to avoid concurrency issues during event processing
+ *
+ * 用于在事件处理期间避免并发问题的线程屏障
  */
 public class ThreadBarrier {
 
