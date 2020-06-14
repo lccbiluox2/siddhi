@@ -35,6 +35,13 @@ public class InputHandler {
     protected SiddhiAppContext siddhiAppContext;
     protected InputProcessor pausedInputPublisher;
 
+    /**
+     *
+     * @param streamId  定义的输入流名称
+     * @param streamIndex  默认为0，用于从InputDistributor中获取input处理器
+     * @param inputProcessor  输入流处理器
+     * @param siddhiAppContext app运行环境
+     */
     public InputHandler(String streamId, int streamIndex, InputProcessor inputProcessor,
                         SiddhiAppContext siddhiAppContext) {
         this.streamId = streamId;
